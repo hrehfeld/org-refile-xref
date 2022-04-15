@@ -1,4 +1,4 @@
-(require 'org)
+(require 'org-refile)
 ;; make org-*-goto-last-stored behave well with xref stack
 (defun org-refile-xref-goto-last-stored-xref-push-advice (&rest args)
   (xref-push-marker-stack))
